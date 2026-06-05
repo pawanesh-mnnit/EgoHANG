@@ -425,6 +425,11 @@ Training uses 80% of the participant's annotated actions and
 validation uses the remaining 20%, split randomly inside `train.py`
 (controlled by `VAL_SPLIT = 0.2`).
 
+| Dataset | Training Participants | Validation |
+|---------|----------------------|------------|
+| EPIC-Kitchens | P01_04, P01_05 | 20% of each participant |
+| EGTEA Gaze+ | OP01-R01, OP01-R02, OP01-R03, OP01-R04, OP01-R05 | 20% of each participant |
+
 
 ## Model Efficiency
 
