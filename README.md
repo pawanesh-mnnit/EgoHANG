@@ -222,7 +222,7 @@ python evaluate.py \
 python evaluate.py \
     --dataset egtea \
     --fused_csv EGTEA/Features/OP01-R01_fused_features_PCA.csv \
-    --label_csv EGTEA/Labels/OP01-R01.csv \
+    --label_csv EGTEA/Labels/OP01-R01-PastaSalad_Label.csv \
     --model_path checkpoints/OP01-R01-PastaSalad_Fused_model.pth
 ```
 
