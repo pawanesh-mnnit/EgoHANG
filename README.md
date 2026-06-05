@@ -1,9 +1,9 @@
 # EgoHAnG: Graph-Enhanced Horizon Aware Egocentric Action Anticipation
 
 [![ICPR 2026](https://img.shields.io/badge/ICPR-2026-blue)](https://icpr2026.org/)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green)](https://www.python.org/)
-[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-orange)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-green)](https://www.python.org/)
+[![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5+-orange)](https://pytorch.org/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 
 > **Pawanesh Kumar Vishwakarma, Ananda S. Chowdhury, Abhimanyu Sahu**  
 > MNNIT Allahabad · Jadavpur University  
@@ -40,6 +40,8 @@ EgoHAnG is an end-to-end framework for egocentric action anticipation that integ
 | InAViT (WACV'24) | 79.30 | 77.60 | 67.80 | 58.20 |
 | **EgoHAnG (Ours)** | **89.22** | **82.67** | **71.40** | **70.03** |
 
+> **Note:** Pretrained weights are provided per participant. Results above are aggregated across all participants as reported in the paper.
+
 ---
 
 ## Repository Structure
@@ -68,8 +70,8 @@ EgoHANG/
 
 ### Requirements
 
-- Python 3.9 or higher
-- CUDA-compatible GPU (recommended: NVIDIA RTX A4000 or equivalent)
+- Python **3.10** or higher
+- CUDA-compatible GPU (tested on NVIDIA RTX A4000 and RTX 4050)
 - 16 GB+ RAM
 
 ### Step 1 — Clone the repository
@@ -83,30 +85,114 @@ cd EgoHANG
 
 ```bash
 python -m venv egohang_env
-source egohang_env/bin/activate        # Linux / macOS
-egohang_env\Scripts\activate           # Windows
+
+# Linux / macOS
+source egohang_env/bin/activate
+
+# Windows (Command Prompt)
+egohang_env\Scripts\activate
+
+# Windows (Git Bash)
+source egohang_env/Scripts/activate
 ```
 
-### Step 3 — Install dependencies
+### Step 3 — Install PyTorch
+
+Check your CUDA version first:
+```bash
+nvidia-smi
+```
+
+Then install PyTorch matching your CUDA version:
+```bash
+# CUDA 12.1 (recommended)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# CUDA 11.8
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# CPU only
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+```
+
+Verify:
+```bash
+python -c "import torch; print(torch.__version__); print('CUDA:', torch.cuda.is_available())"
+```
+
+### Step 4 — Install PyTorch Geometric
+
+```bash
+pip install torch-geometric
+
+# CUDA 12.1
+pip install torch-scatter torch-sparse \
+    -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+
+# CUDA 11.8
+pip install torch-scatter torch-sparse \
+    -f https://data.pyg.org/whl/torch-2.5.1+cu118.html
+
+# CPU only
+pip install torch-scatter torch-sparse \
+    -f https://data.pyg.org/whl/torch-2.5.1+cpu.html
+```
+
+### Step 5 — Install remaining dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-For PyTorch Geometric, install the version matching your CUDA:
+### Step 6 — Verify installation
 
 ```bash
-# CUDA 11.8
-pip install torch-geometric torch-scatter torch-sparse \
-    -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+python -c "
+import torch
+import torchvision
+import torch_geometric
+import pandas
+import numpy
+import sklearn
+import joblib
+print('torch         :', torch.__version__)
+print('torchvision   :', torchvision.__version__)
+print('torch_geometric:', torch_geometric.__version__)
+print('CUDA available :', torch.cuda.is_available())
+print('All OK')
+"
+```
 
-# CUDA 12.1
-pip install torch-geometric torch-scatter torch-sparse \
-    -f https://data.pyg.org/whl/torch-2.0.0+cu121.html
+---
 
-# CPU only
-pip install torch-geometric torch-scatter torch-sparse \
-    -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+## Quick Sanity Check (No Dataset Required)
+
+Run this to verify the model works before touching any dataset:
+
+```bash
+python -c "
+import torch
+from model import AnticipationModel
+model = AnticipationModel(
+    feat_dim=512,
+    num_classes={'verb': 97, 'noun': 300, 'action': 2513},
+    k_fut=8
+)
+dummy = torch.randn(2, 90, 512)
+out = model(dummy)
+print('verb shape   :', out['verb'].shape)
+print('noun shape   :', out['noun'].shape)
+print('action shape :', out['action'].shape)
+print('Model OK')
+"
+```
+
+Expected output:
+```
+verb shape   : torch.Size([2, 8, 97])
+noun shape   : torch.Size([2, 8, 300])
+action shape : torch.Size([2, 8, 2513])
+Model OK
 ```
 
 ---
@@ -120,12 +206,12 @@ Expected folder structure:
 ```
 /path/to/EPIC_Kitchens/
 ├── RGB/
-│   ├── P01_01/   (frames as .jpg)
-│   ├── P01_04/
+│   ├── P01_04/   (frames as .jpg)
+│   ├── P01_05/
 │   └── ...
 └── OpticalFlow/
-    ├── P01_01/
     ├── P01_04/
+    ├── P01_05/
     └── ...
 ```
 
@@ -151,18 +237,25 @@ Download pretrained model weights from the GitHub Release:
 
 **[Download from GitHub Releases v1.0.0](https://github.com/pawanesh-mnnit/EgoHANG/releases/tag/v1.0.0)**
 
-| File | Dataset | Size |
-|------|---------|------|
-| `P01_04_fused_model_PCA.pth` | EPIC-Kitchens (P01_04) | 272 MB |
-| `P01_04_Fused_model.pth` | EPIC-Kitchens (P01_04) | 272 MB |
-| `P01_05_Fused_model.pth` | EPIC-Kitchens (P01_05) | 274 MB |
-| `OP01-R01-PastaSalad_Fused_model.pth` | EGTEA Gaze+ | 272 MB |
-| `OP01-R02-TurkeySandwich_Fused_model.pth` | EGTEA Gaze+ | 272 MB |
-| `OP01-R03-BaconAndEggs_Fused_model.pth` | EGTEA Gaze+ | 272 MB |
-| `OP01-R04-ContinentalBreakfast_Fused_model.pth` | EGTEA Gaze+ | 272 MB |
-| `OP01-R05-Cheeseburger_Fused_model.pth` | EGTEA Gaze+ | 272 MB |
+| File | Dataset | Participant |
+|------|---------|------------|
+| `P01_04_fused_model_PCA.pth` | EPIC-Kitchens | P01_04 |
+| `P01_04_Fused_model.pth` | EPIC-Kitchens | P01_04 |
+| `P01_05_Fused_model.pth` | EPIC-Kitchens | P01_05 |
+| `OP01-R01-PastaSalad_Fused_model.pth` | EGTEA Gaze+ | OP01-R01 |
+| `OP01-R02-TurkeySandwich_Fused_model.pth` | EGTEA Gaze+ | OP01-R02 |
+| `OP01-R03-BaconAndEggs_Fused_model.pth` | EGTEA Gaze+ | OP01-R03 |
+| `OP01-R04-ContinentalBreakfast_Fused_model.pth` | EGTEA Gaze+ | OP01-R04 |
+| `OP01-R05-Cheeseburger_Fused_model.pth` | EGTEA Gaze+ | OP01-R05 |
 
-Place downloaded `.pth` files in a `checkpoints/` folder.
+Create a `checkpoints/` folder and place downloaded `.pth` files inside it:
+```bash
+mkdir checkpoints
+```
+
+> **Note:** Each `.pth` file contains the model trained on a single participant.
+> The class counts are automatically inferred from the checkpoint — no manual
+> configuration needed.
 
 ---
 
@@ -222,7 +315,7 @@ python evaluate.py \
 python evaluate.py \
     --dataset egtea \
     --fused_csv EGTEA/Features/OP01-R01_fused_features_PCA.csv \
-    --label_csv EGTEA/Labels/OP01-R01-PastaSalad_Label.csv \
+    --label_csv EGTEA/Labels/OP01-R01.csv \
     --model_path checkpoints/OP01-R01-PastaSalad_Fused_model.pth
 ```
 
@@ -247,6 +340,8 @@ python evaluate.py \
 | Dropout | 0.1 |
 | RGB Fusion Weight (α) | 0.6 |
 | Flow Fusion Weight (1-α) | 0.4 |
+| EPIC-Kitchens FPS | 60.0 |
+| EGTEA Gaze+ FPS | 24.0 |
 
 ---
 
@@ -262,15 +357,45 @@ python evaluate.py \
 
 ---
 
+## Tested Environment
+
+| Package | Version |
+|---------|---------|
+| Python | 3.10.x |
+| torch | 2.5.1+cu121 |
+| torchvision | 0.20.1+cu121 |
+| torch-geometric | 2.7.0 |
+| numpy | 1.24+ |
+| pandas | 2.0+ |
+| scikit-learn | 1.3+ |
+| GPU | NVIDIA RTX 4050 / RTX A4000 |
+| CUDA | 12.1 |
+
+---
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{vishwakarma2026egohang,
+  title     = {EgoHAnG: Graph-Enhanced Horizon Aware Egocentric Action Anticipation},
+  author    = {Vishwakarma, Pawanesh Kumar and Chowdhury, Ananda S. and Sahu, Abhimanyu},
+  booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
+  year      = {2026}
+}
+```
+
+---
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the [CC BY-NC 4.0 License](LICENSE).
+Free for academic and research use. Commercial use requires permission.
 
 ---
 
 ## Contact
 
 - Pawanesh Kumar Vishwakarma — pawanesh.2023rcs04@mnnit.ac.in
-
-
+- Abhimanyu Sahu — abhimanyus@mnnit.ac.in
