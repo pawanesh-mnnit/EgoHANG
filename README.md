@@ -23,12 +23,6 @@ EgoHAnG is an end-to-end framework for egocentric action anticipation that integ
 
 ---
 
-## Problem Formulation
-
-![Method Pipeline](Viz_Results/AA_Intro.png)
-
----
-
 ## Results
 
 ### EPIC-Kitchens
