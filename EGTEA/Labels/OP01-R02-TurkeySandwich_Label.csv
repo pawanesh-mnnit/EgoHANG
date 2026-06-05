@@ -1,0 +1,259 @@
+StartFrame,EndFrame,Verb,Verb_class,Noun,Noun_class,ActionLabel,ActionName
+1067,1207,Open,2,fridge,2,2,Open Fridge
+1067,1207,Open,2,fridge,2,2,Open Fridge
+1067,1207,Open,2,fridge,2,2,Open Fridge
+1193,1235,,47,eating_utensil,3,32,Move Around Patty
+1193,1235,,47,eating_utensil,3,32,Move Around Patty
+1193,1235,,47,eating_utensil,3,32,Move Around Patty
+1225,1298,,52,cabinet,6,32,Move Around Patty
+1225,1298,,52,cabinet,6,32,Move Around Patty
+1225,1298,,52,cabinet,6,32,Move Around Patty
+1290,1316,,52,cabinet,6,32,Move Around Patty
+1290,1316,,52,cabinet,6,32,Move Around Patty
+1290,1316,,52,cabinet,6,32,Move Around Patty
+1405,1448,Open,2,fridge,2,2,Open Fridge
+1405,1448,Open,2,fridge,2,2,Open Fridge
+1405,1448,Open,2,fridge,2,2,Open Fridge
+1581,1612,Open,2,fridge,2,2,Open Fridge
+1581,1612,Open,2,fridge,2,2,Open Fridge
+1581,1612,Open,2,fridge,2,2,Open Fridge
+1603,1677,,68,eating_utensil,3,39,Wash Hand
+1603,1677,,68,eating_utensil,3,39,Wash Hand
+1603,1677,,68,eating_utensil,3,39,Wash Hand
+1750,1794,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+1750,1794,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+1750,1794,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+1822,2001,,84,eating_utensil,3,40,Put Tomato
+1822,2001,,84,eating_utensil,3,40,Put Tomato
+1822,2001,,84,eating_utensil,3,40,Put Tomato
+2000,2047,Spread,11,cucumber,8,2,Open Fridge
+2000,2047,Spread,11,cucumber,8,2,Open Fridge
+2000,2047,Spread,11,cucumber,8,2,Open Fridge
+2032,2163,Spread,11,cucumber,8,2,Open Fridge
+2032,2163,Spread,11,cucumber,8,2,Open Fridge
+2032,2163,Spread,11,cucumber,8,2,Open Fridge
+2211,2251,,100,stove,9,14,Cut Onion
+2211,2251,,100,stove,9,14,Cut Onion
+2211,2251,,100,stove,9,14,Cut Onion
+2254,2277,Crack,18,cabinet,6,14,Cut Onion
+2254,2277,Crack,18,cabinet,6,14,Cut Onion
+2254,2277,Crack,18,cabinet,6,14,Cut Onion
+2303,2339,,20,cabinet,6,13,Put Condiment Container
+2303,2339,,20,cabinet,6,13,Put Condiment Container
+2303,2339,,20,cabinet,6,13,Put Condiment Container
+2449,2529,,48,eating_utensil,3,4,Cut Tomato
+2449,2529,,48,eating_utensil,3,4,Cut Tomato
+2449,2529,,48,eating_utensil,3,4,Cut Tomato
+2513,3259,Cut,4,tomato,4,4,Cut Tomato
+2513,3259,Cut,4,tomato,4,4,Cut Tomato
+2513,3259,Cut,4,tomato,4,4,Cut Tomato
+2528,2558,,40,cabinet,6,4,Cut Tomato
+2528,2558,,40,cabinet,6,4,Cut Tomato
+2528,2558,,40,cabinet,6,4,Cut Tomato
+3193,3506,Cut,4,tomato,4,4,Cut Tomato
+3193,3506,Cut,4,tomato,4,4,Cut Tomato
+3193,3506,Cut,4,tomato,4,4,Cut Tomato
+3446,3845,Cut,4,tomato,4,4,Cut Tomato
+3446,3845,Cut,4,tomato,4,4,Cut Tomato
+3446,3845,Cut,4,tomato,4,4,Cut Tomato
+3969,3988,Put,6,cabinet,6,3,Take Eating Utensil
+3969,3988,Put,6,cabinet,6,3,Take Eating Utensil
+3969,3988,Put,6,cabinet,6,3,Take Eating Utensil
+4071,4100,,102,cabinet,6,46,Clean/Wipe Counter
+4071,4100,,102,cabinet,6,46,Clean/Wipe Counter
+4071,4100,,102,cabinet,6,46,Clean/Wipe Counter
+4466,4544,,54,eating_utensil,3,24,Move Around Bacon
+4466,4544,,54,eating_utensil,3,24,Move Around Bacon
+4466,4544,,54,eating_utensil,3,24,Move Around Bacon
+4536,4554,,31,cabinet,6,24,Move Around Bacon
+4536,4554,,31,cabinet,6,24,Move Around Bacon
+4536,4554,,31,cabinet,6,24,Move Around Bacon
+4776,4794,,31,cabinet,6,24,Move Around Bacon
+4776,4794,,31,cabinet,6,24,Move Around Bacon
+4776,4794,,31,cabinet,6,24,Move Around Bacon
+4900,4918,,43,plate,13,24,Move Around Bacon
+4900,4918,,43,plate,13,24,Move Around Bacon
+4900,4918,,43,plate,13,24,Move Around Bacon
+4913,4956,,43,plate,13,24,Move Around Bacon
+4913,4956,,43,plate,13,24,Move Around Bacon
+4913,4956,,43,plate,13,24,Move Around Bacon
+4961,5004,,43,plate,13,24,Move Around Bacon
+4961,5004,,43,plate,13,24,Move Around Bacon
+4961,5004,,43,plate,13,24,Move Around Bacon
+4995,5062,,43,plate,13,24,Move Around Bacon
+4995,5062,,43,plate,13,24,Move Around Bacon
+4995,5062,,43,plate,13,24,Move Around Bacon
+5054,5095,,43,plate,13,24,Move Around Bacon
+5054,5095,,43,plate,13,24,Move Around Bacon
+5054,5095,,43,plate,13,24,Move Around Bacon
+5092,5132,,43,plate,13,24,Move Around Bacon
+5092,5132,,43,plate,13,24,Move Around Bacon
+5092,5132,,43,plate,13,24,Move Around Bacon
+5164,5183,,43,plate,13,24,Move Around Bacon
+5164,5183,,43,plate,13,24,Move Around Bacon
+5164,5183,,43,plate,13,24,Move Around Bacon
+5192,5217,,43,plate,13,24,Move Around Bacon
+5192,5217,,43,plate,13,24,Move Around Bacon
+5192,5217,,43,plate,13,24,Move Around Bacon
+5245,5273,,43,plate,13,24,Move Around Bacon
+5245,5273,,43,plate,13,24,Move Around Bacon
+5245,5273,,43,plate,13,24,Move Around Bacon
+5274,5299,,43,plate,13,24,Move Around Bacon
+5274,5299,,43,plate,13,24,Move Around Bacon
+5274,5299,,43,plate,13,24,Move Around Bacon
+5296,5314,,43,plate,13,24,Move Around Bacon
+5296,5314,,43,plate,13,24,Move Around Bacon
+5296,5314,,43,plate,13,24,Move Around Bacon
+5311,5329,,43,plate,13,24,Move Around Bacon
+5311,5329,,43,plate,13,24,Move Around Bacon
+5311,5329,,43,plate,13,24,Move Around Bacon
+5323,5547,,82,fridge,2,32,Move Around Patty
+5323,5547,,82,fridge,2,32,Move Around Patty
+5323,5547,,82,fridge,2,32,Move Around Patty
+5522,5600,,36,eating_utensil,3,22,Put Cooking Utensil
+5522,5600,,36,eating_utensil,3,22,Put Cooking Utensil
+5522,5600,,36,eating_utensil,3,22,Put Cooking Utensil
+5645,5669,,35,cabinet,6,22,Put Cooking Utensil
+5645,5669,,35,cabinet,6,22,Put Cooking Utensil
+5645,5669,,35,cabinet,6,22,Put Cooking Utensil
+5665,5688,,35,cabinet,6,22,Put Cooking Utensil
+5665,5688,,35,cabinet,6,22,Put Cooking Utensil
+5665,5688,,35,cabinet,6,22,Put Cooking Utensil
+5685,5703,,35,cabinet,6,22,Put Cooking Utensil
+5685,5703,,35,cabinet,6,22,Put Cooking Utensil
+5685,5703,,35,cabinet,6,22,Put Cooking Utensil
+5718,5741,Take,3,eating_utensil,3,3,Take Eating Utensil
+5718,5741,Take,3,eating_utensil,3,3,Take Eating Utensil
+5718,5741,Take,3,eating_utensil,3,3,Take Eating Utensil
+6966,6994,,40,cabinet,6,4,Cut Tomato
+6966,6994,,40,cabinet,6,4,Cut Tomato
+6966,6994,,40,cabinet,6,4,Cut Tomato
+6991,7010,,31,cabinet,6,24,Move Around Bacon
+6991,7010,,31,cabinet,6,24,Move Around Bacon
+6991,7010,,31,cabinet,6,24,Move Around Bacon
+7013,7030,,40,cabinet,6,4,Cut Tomato
+7013,7030,,40,cabinet,6,4,Cut Tomato
+7013,7030,,40,cabinet,6,4,Cut Tomato
+7110,7127,,31,cabinet,6,24,Move Around Bacon
+7110,7127,,31,cabinet,6,24,Move Around Bacon
+7110,7127,,31,cabinet,6,24,Move Around Bacon
+7154,7182,,40,cabinet,6,4,Cut Tomato
+7154,7182,,40,cabinet,6,4,Cut Tomato
+7154,7182,,40,cabinet,6,4,Cut Tomato
+7245,7268,,40,cabinet,6,4,Cut Tomato
+7245,7268,,40,cabinet,6,4,Cut Tomato
+7245,7268,,40,cabinet,6,4,Cut Tomato
+7265,7296,,40,cabinet,6,4,Cut Tomato
+7265,7296,,40,cabinet,6,4,Cut Tomato
+7265,7296,,40,cabinet,6,4,Cut Tomato
+7292,7318,,31,cabinet,6,24,Move Around Bacon
+7292,7318,,31,cabinet,6,24,Move Around Bacon
+7292,7318,,31,cabinet,6,24,Move Around Bacon
+7314,7341,,31,cabinet,6,24,Move Around Bacon
+7314,7341,,31,cabinet,6,24,Move Around Bacon
+7314,7341,,31,cabinet,6,24,Move Around Bacon
+7360,7377,,31,cabinet,6,24,Move Around Bacon
+7360,7377,,31,cabinet,6,24,Move Around Bacon
+7360,7377,,31,cabinet,6,24,Move Around Bacon
+7381,7396,,31,cabinet,6,24,Move Around Bacon
+7381,7396,,31,cabinet,6,24,Move Around Bacon
+7381,7396,,31,cabinet,6,24,Move Around Bacon
+7478,7507,,31,cabinet,6,24,Move Around Bacon
+7478,7507,,31,cabinet,6,24,Move Around Bacon
+7478,7507,,31,cabinet,6,24,Move Around Bacon
+7501,7548,,31,cabinet,6,24,Move Around Bacon
+7501,7548,,31,cabinet,6,24,Move Around Bacon
+7501,7548,,31,cabinet,6,24,Move Around Bacon
+7586,7614,,40,cabinet,6,4,Cut Tomato
+7586,7614,,40,cabinet,6,4,Cut Tomato
+7586,7614,,40,cabinet,6,4,Cut Tomato
+7593,7622,,31,cabinet,6,24,Move Around Bacon
+7593,7622,,31,cabinet,6,24,Move Around Bacon
+7593,7622,,31,cabinet,6,24,Move Around Bacon
+7661,7693,,31,cabinet,6,24,Move Around Bacon
+7661,7693,,31,cabinet,6,24,Move Around Bacon
+7661,7693,,31,cabinet,6,24,Move Around Bacon
+7689,7713,,31,cabinet,6,24,Move Around Bacon
+7689,7713,,31,cabinet,6,24,Move Around Bacon
+7689,7713,,31,cabinet,6,24,Move Around Bacon
+7712,7737,,31,cabinet,6,24,Move Around Bacon
+7712,7737,,31,cabinet,6,24,Move Around Bacon
+7712,7737,,31,cabinet,6,24,Move Around Bacon
+7893,7930,,84,eating_utensil,3,40,Put Tomato
+7893,7930,,84,eating_utensil,3,40,Put Tomato
+7893,7930,,84,eating_utensil,3,40,Put Tomato
+8226,8256,,69,cabinet,6,40,Put Tomato
+8226,8256,,69,cabinet,6,40,Put Tomato
+8226,8256,,69,cabinet,6,40,Put Tomato
+8249,8314,,69,cabinet,6,40,Put Tomato
+8249,8314,,69,cabinet,6,40,Put Tomato
+8249,8314,,69,cabinet,6,40,Put Tomato
+8334,8357,,91,cabinet,6,36,Take Bread
+8334,8357,,91,cabinet,6,36,Take Bread
+8334,8357,,91,cabinet,6,36,Take Bread
+8701,8739,,47,eating_utensil,3,32,Move Around Patty
+8701,8739,,47,eating_utensil,3,32,Move Around Patty
+8701,8739,,47,eating_utensil,3,32,Move Around Patty
+9209,9269,Open,2,fridge,2,2,Open Fridge
+9209,9269,Open,2,fridge,2,2,Open Fridge
+9209,9269,Open,2,fridge,2,2,Open Fridge
+9260,9313,,52,cabinet,6,32,Move Around Patty
+9260,9313,,52,cabinet,6,32,Move Around Patty
+9260,9313,,52,cabinet,6,32,Move Around Patty
+9501,9541,Spread,11,cucumber,8,2,Open Fridge
+9501,9541,Spread,11,cucumber,8,2,Open Fridge
+9501,9541,Spread,11,cucumber,8,2,Open Fridge
+9537,9577,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+9537,9577,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+9537,9577,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+9573,9614,Close,8,eating_utensil,3,7,Open Cabinet
+9573,9614,Close,8,eating_utensil,3,7,Open Cabinet
+9573,9614,Close,8,eating_utensil,3,7,Open Cabinet
+9600,9628,Open,2,fridge,2,2,Open Fridge
+9600,9628,Open,2,fridge,2,2,Open Fridge
+9600,9628,Open,2,fridge,2,2,Open Fridge
+9623,9651,Close,8,eating_utensil,3,7,Open Cabinet
+9623,9651,Close,8,eating_utensil,3,7,Open Cabinet
+9623,9651,Close,8,eating_utensil,3,7,Open Cabinet
+9783,9827,,25,fridge,2,7,Open Cabinet
+9783,9827,,25,fridge,2,7,Open Cabinet
+9783,9827,,25,fridge,2,7,Open Cabinet
+9839,9894,,25,fridge,2,7,Open Cabinet
+9839,9894,,25,fridge,2,7,Open Cabinet
+9839,9894,,25,fridge,2,7,Open Cabinet
+9886,9928,,25,fridge,2,7,Open Cabinet
+9886,9928,,25,fridge,2,7,Open Cabinet
+9886,9928,,25,fridge,2,7,Open Cabinet
+10272,10302,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+10272,10302,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+10272,10302,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+10665,10702,,36,eating_utensil,3,22,Put Cooking Utensil
+10665,10702,,36,eating_utensil,3,22,Put Cooking Utensil
+10665,10702,,36,eating_utensil,3,22,Put Cooking Utensil
+10675,10712,,36,eating_utensil,3,22,Put Cooking Utensil
+10675,10712,,36,eating_utensil,3,22,Put Cooking Utensil
+10675,10712,,36,eating_utensil,3,22,Put Cooking Utensil
+10760,10810,,90,bell_pepper,17,50,Move Around Pan
+10760,10810,,90,bell_pepper,17,50,Move Around Pan
+10760,10810,,90,bell_pepper,17,50,Move Around Pan
+10938,10998,Open,2,fridge,2,2,Open Fridge
+10938,10998,Open,2,fridge,2,2,Open Fridge
+10938,10998,Open,2,fridge,2,2,Open Fridge
+10987,11046,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+10987,11046,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+10987,11046,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11040,11063,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11040,11063,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11040,11063,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11058,11123,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11058,11123,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11058,11123,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+11112,11166,Spread,11,cucumber,8,2,Open Fridge
+11112,11166,Spread,11,cucumber,8,2,Open Fridge
+11112,11166,Spread,11,cucumber,8,2,Open Fridge
+11193,11208,Put,6,cabinet,6,3,Take Eating Utensil
+11193,11208,Put,6,cabinet,6,3,Take Eating Utensil
+11193,11208,Put,6,cabinet,6,3,Take Eating Utensil
+11262,11306,Put,6,trash,15,16,Take Plate
+11262,11306,Put,6,trash,15,16,Take Plate
+11262,11306,Put,6,trash,15,16,Take Plate
