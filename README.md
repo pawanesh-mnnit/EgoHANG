@@ -262,20 +262,6 @@ python evaluate.py \
 
 ---
 
-## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@inproceedings{vishwakarma2026egohang,
-  title     = {EgoHAnG: Graph-Enhanced Horizon Aware Egocentric Action Anticipation},
-  author    = {Vishwakarma, Pawanesh Kumar and Chowdhury, Ananda S. and Sahu, Abhimanyu},
-  booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
-  year      = {2026}
-}
-```
-
----
 
 ## License
 
