@@ -1,0 +1,490 @@
+StartFrame,EndFrame,Verb,Verb_class,Noun,Noun_class,ActionLabel,ActionName
+1597,1639,,73,eating_utensil,3,42,Take Cup
+1597,1639,,73,eating_utensil,3,42,Take Cup
+1597,1639,,73,eating_utensil,3,42,Take Cup
+1749,1826,,49,faucet,5,26,Wash Eating Utensil
+1749,1826,,49,faucet,5,26,Wash Eating Utensil
+1749,1826,,49,faucet,5,26,Wash Eating Utensil
+1776,1952,,49,faucet,5,26,Wash Eating Utensil
+1776,1952,,49,faucet,5,26,Wash Eating Utensil
+1776,1952,,49,faucet,5,26,Wash Eating Utensil
+1938,2003,,101,stove,9,26,Wash Eating Utensil
+1938,2003,,101,stove,9,26,Wash Eating Utensil
+1938,2003,,101,stove,9,26,Wash Eating Utensil
+1994,2050,,33,cabinet,6,26,Wash Eating Utensil
+1994,2050,,33,cabinet,6,26,Wash Eating Utensil
+1994,2050,,33,cabinet,6,26,Wash Eating Utensil
+2046,2076,,73,eating_utensil,3,42,Take Cup
+2046,2076,,73,eating_utensil,3,42,Take Cup
+2046,2076,,73,eating_utensil,3,42,Take Cup
+2073,2101,,73,eating_utensil,3,42,Take Cup
+2073,2101,,73,eating_utensil,3,42,Take Cup
+2073,2101,,73,eating_utensil,3,42,Take Cup
+2235,2275,Put,6,trash,15,16,Take Plate
+2235,2275,Put,6,trash,15,16,Take Plate
+2235,2275,Put,6,trash,15,16,Take Plate
+2553,2703,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2553,2703,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2553,2703,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2697,2746,Take,3,eating_utensil,3,3,Take Eating Utensil
+2697,2746,Take,3,eating_utensil,3,3,Take Eating Utensil
+2697,2746,Take,3,eating_utensil,3,3,Take Eating Utensil
+2751,2835,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2751,2835,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2751,2835,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2766,2826,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2766,2826,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2766,2826,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+2846,2895,Put,6,cabinet,6,3,Take Eating Utensil
+2846,2895,Put,6,cabinet,6,3,Take Eating Utensil
+2846,2895,Put,6,cabinet,6,3,Take Eating Utensil
+2919,2961,Open,2,fridge,2,2,Open Fridge
+2919,2961,Open,2,fridge,2,2,Open Fridge
+2919,2961,Open,2,fridge,2,2,Open Fridge
+2948,3091,,48,eating_utensil,3,4,Cut Tomato
+2948,3091,,48,eating_utensil,3,4,Cut Tomato
+2948,3091,,48,eating_utensil,3,4,Cut Tomato
+3092,3175,Spread,11,cucumber,8,2,Open Fridge
+3092,3175,Spread,11,cucumber,8,2,Open Fridge
+3092,3175,Spread,11,cucumber,8,2,Open Fridge
+3204,3252,Take,3,eating_utensil,3,3,Take Eating Utensil
+3204,3252,Take,3,eating_utensil,3,3,Take Eating Utensil
+3204,3252,Take,3,eating_utensil,3,3,Take Eating Utensil
+3210,3743,Cut,4,tomato,4,4,Cut Tomato
+3210,3743,Cut,4,tomato,4,4,Cut Tomato
+3210,3743,Cut,4,tomato,4,4,Cut Tomato
+3731,4045,Cut,4,tomato,4,4,Cut Tomato
+3731,4045,Cut,4,tomato,4,4,Cut Tomato
+3731,4045,Cut,4,tomato,4,4,Cut Tomato
+3733,3762,,48,eating_utensil,3,4,Cut Tomato
+3733,3762,,48,eating_utensil,3,4,Cut Tomato
+3733,3762,,48,eating_utensil,3,4,Cut Tomato
+4063,4256,Cut,4,tomato,4,4,Cut Tomato
+4063,4256,Cut,4,tomato,4,4,Cut Tomato
+4063,4256,Cut,4,tomato,4,4,Cut Tomato
+4265,4741,Cut,4,tomato,4,4,Cut Tomato
+4265,4741,Cut,4,tomato,4,4,Cut Tomato
+4265,4741,Cut,4,tomato,4,4,Cut Tomato
+4775,5182,Cut,4,tomato,4,4,Cut Tomato
+4775,5182,Cut,4,tomato,4,4,Cut Tomato
+4775,5182,Cut,4,tomato,4,4,Cut Tomato
+5257,5309,Cut,4,tomato,4,4,Cut Tomato
+5257,5309,Cut,4,tomato,4,4,Cut Tomato
+5257,5309,Cut,4,tomato,4,4,Cut Tomato
+5312,5341,Cut,4,tomato,4,4,Cut Tomato
+5312,5341,Cut,4,tomato,4,4,Cut Tomato
+5312,5341,Cut,4,tomato,4,4,Cut Tomato
+5370,5436,Open,2,fridge,2,2,Open Fridge
+5370,5436,Open,2,fridge,2,2,Open Fridge
+5370,5436,Open,2,fridge,2,2,Open Fridge
+5428,5472,,40,cabinet,6,4,Cut Tomato
+5428,5472,,40,cabinet,6,4,Cut Tomato
+5428,5472,,40,cabinet,6,4,Cut Tomato
+5467,5510,,55,eating_utensil,3,11,Close Fridge
+5467,5510,,55,eating_utensil,3,11,Close Fridge
+5467,5510,,55,eating_utensil,3,11,Close Fridge
+5587,5770,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+5587,5770,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+5587,5770,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+5801,5872,Open,2,fridge,2,2,Open Fridge
+5801,5872,Open,2,fridge,2,2,Open Fridge
+5801,5872,Open,2,fridge,2,2,Open Fridge
+5863,5906,,64,eating_utensil,3,17,Take Bowl
+5863,5906,,64,eating_utensil,3,17,Take Bowl
+5863,5906,,64,eating_utensil,3,17,Take Bowl
+5910,6007,Spread,11,cucumber,8,2,Open Fridge
+5910,6007,Spread,11,cucumber,8,2,Open Fridge
+5910,6007,Spread,11,cucumber,8,2,Open Fridge
+6013,6062,,71,cabinet,6,17,Take Bowl
+6013,6062,,71,cabinet,6,17,Take Bowl
+6013,6062,,71,cabinet,6,17,Take Bowl
+6032,6075,Take,3,eating_utensil,3,3,Take Eating Utensil
+6032,6075,Take,3,eating_utensil,3,3,Take Eating Utensil
+6032,6075,Take,3,eating_utensil,3,3,Take Eating Utensil
+6076,6307,,21,tomato,4,17,Take Bowl
+6076,6307,,21,tomato,4,17,Take Bowl
+6076,6307,,21,tomato,4,17,Take Bowl
+6335,6373,,71,cabinet,6,17,Take Bowl
+6335,6373,,71,cabinet,6,17,Take Bowl
+6335,6373,,71,cabinet,6,17,Take Bowl
+6336,6768,,21,tomato,4,17,Take Bowl
+6336,6768,,21,tomato,4,17,Take Bowl
+6336,6768,,21,tomato,4,17,Take Bowl
+6787,7005,,21,tomato,4,17,Take Bowl
+6787,7005,,21,tomato,4,17,Take Bowl
+6787,7005,,21,tomato,4,17,Take Bowl
+6979,7065,,21,tomato,4,17,Take Bowl
+6979,7065,,21,tomato,4,17,Take Bowl
+6979,7065,,21,tomato,4,17,Take Bowl
+7039,7255,,21,tomato,4,17,Take Bowl
+7039,7255,,21,tomato,4,17,Take Bowl
+7039,7255,,21,tomato,4,17,Take Bowl
+7264,7296,,64,eating_utensil,3,17,Take Bowl
+7264,7296,,64,eating_utensil,3,17,Take Bowl
+7264,7296,,64,eating_utensil,3,17,Take Bowl
+7285,7393,,21,tomato,4,17,Take Bowl
+7285,7393,,21,tomato,4,17,Take Bowl
+7285,7393,,21,tomato,4,17,Take Bowl
+7412,7440,,71,cabinet,6,17,Take Bowl
+7412,7440,,71,cabinet,6,17,Take Bowl
+7412,7440,,71,cabinet,6,17,Take Bowl
+7427,7682,,21,tomato,4,17,Take Bowl
+7427,7682,,21,tomato,4,17,Take Bowl
+7427,7682,,21,tomato,4,17,Take Bowl
+7823,7864,Pour,16,eating_utensil,3,13,Put Condiment Container
+7823,7864,Pour,16,eating_utensil,3,13,Put Condiment Container
+7823,7864,Pour,16,eating_utensil,3,13,Put Condiment Container
+8006,8043,,20,cabinet,6,13,Put Condiment Container
+8006,8043,,20,cabinet,6,13,Put Condiment Container
+8006,8043,,20,cabinet,6,13,Put Condiment Container
+8059,8085,,30,eating_utensil,3,18,Put Bowl
+8059,8085,,30,eating_utensil,3,18,Put Bowl
+8059,8085,,30,eating_utensil,3,18,Put Bowl
+8076,8178,,81,trash,15,45,Take Pot
+8076,8178,,81,trash,15,45,Take Pot
+8076,8178,,81,trash,15,45,Take Pot
+8167,8209,,22,cabinet,6,18,Put Bowl
+8167,8209,,22,cabinet,6,18,Put Bowl
+8167,8209,,22,cabinet,6,18,Put Bowl
+8223,8355,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+8223,8355,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+8223,8355,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+8378,8510,Open,2,fridge,2,2,Open Fridge
+8378,8510,Open,2,fridge,2,2,Open Fridge
+8378,8510,Open,2,fridge,2,2,Open Fridge
+8450,8503,,71,cabinet,6,17,Take Bowl
+8450,8503,,71,cabinet,6,17,Take Bowl
+8450,8503,,71,cabinet,6,17,Take Bowl
+8489,8604,,62,eating_utensil,3,8,Take Condiment Container
+8489,8604,,62,eating_utensil,3,8,Take Condiment Container
+8489,8604,,62,eating_utensil,3,8,Take Condiment Container
+8615,8667,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+8615,8667,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+8615,8667,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+8665,8739,,55,eating_utensil,3,11,Close Fridge
+8665,8739,,55,eating_utensil,3,11,Close Fridge
+8665,8739,,55,eating_utensil,3,11,Close Fridge
+8738,8770,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+8738,8770,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+8738,8770,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+8757,8876,Spread,11,cucumber,8,2,Open Fridge
+8757,8876,Spread,11,cucumber,8,2,Open Fridge
+8757,8876,Spread,11,cucumber,8,2,Open Fridge
+8883,8910,,89,cabinet,6,8,Take Condiment Container
+8883,8910,,89,cabinet,6,8,Take Condiment Container
+8883,8910,,89,cabinet,6,8,Take Condiment Container
+8938,9420,Move Around,9,tomato,4,8,Take Condiment Container
+8938,9420,Move Around,9,tomato,4,8,Take Condiment Container
+8938,9420,Move Around,9,tomato,4,8,Take Condiment Container
+9358,9396,,89,cabinet,6,8,Take Condiment Container
+9358,9396,,89,cabinet,6,8,Take Condiment Container
+9358,9396,,89,cabinet,6,8,Take Condiment Container
+9389,9676,Move Around,9,tomato,4,8,Take Condiment Container
+9389,9676,Move Around,9,tomato,4,8,Take Condiment Container
+9389,9676,Move Around,9,tomato,4,8,Take Condiment Container
+9630,10165,Move Around,9,tomato,4,8,Take Condiment Container
+9630,10165,Move Around,9,tomato,4,8,Take Condiment Container
+9630,10165,Move Around,9,tomato,4,8,Take Condiment Container
+10010,10050,Move Around,9,tomato,4,8,Take Condiment Container
+10010,10050,Move Around,9,tomato,4,8,Take Condiment Container
+10010,10050,Move Around,9,tomato,4,8,Take Condiment Container
+10154,10197,Move Around,9,tomato,4,8,Take Condiment Container
+10154,10197,Move Around,9,tomato,4,8,Take Condiment Container
+10154,10197,Move Around,9,tomato,4,8,Take Condiment Container
+10179,10310,Move Around,9,tomato,4,8,Take Condiment Container
+10179,10310,Move Around,9,tomato,4,8,Take Condiment Container
+10179,10310,Move Around,9,tomato,4,8,Take Condiment Container
+10354,10806,Move Around,9,tomato,4,8,Take Condiment Container
+10354,10806,Move Around,9,tomato,4,8,Take Condiment Container
+10354,10806,Move Around,9,tomato,4,8,Take Condiment Container
+10877,11095,Move Around,9,tomato,4,8,Take Condiment Container
+10877,11095,Move Around,9,tomato,4,8,Take Condiment Container
+10877,11095,Move Around,9,tomato,4,8,Take Condiment Container
+11079,11104,,89,cabinet,6,8,Take Condiment Container
+11079,11104,,89,cabinet,6,8,Take Condiment Container
+11079,11104,,89,cabinet,6,8,Take Condiment Container
+11171,11210,Move Around,9,tomato,4,8,Take Condiment Container
+11171,11210,Move Around,9,tomato,4,8,Take Condiment Container
+11171,11210,Move Around,9,tomato,4,8,Take Condiment Container
+11294,11514,Clean/Wipe,14,tomato,4,11,Close Fridge
+11294,11514,Clean/Wipe,14,tomato,4,11,Close Fridge
+11294,11514,Clean/Wipe,14,tomato,4,11,Close Fridge
+11524,11583,Clean/Wipe,14,tomato,4,11,Close Fridge
+11524,11583,Clean/Wipe,14,tomato,4,11,Close Fridge
+11524,11583,Clean/Wipe,14,tomato,4,11,Close Fridge
+11723,11751,Wash,10,condiment_container,7,9,Cut Cucumber
+11723,11751,Wash,10,condiment_container,7,9,Cut Cucumber
+11723,11751,Wash,10,condiment_container,7,9,Cut Cucumber
+11767,11793,,30,eating_utensil,3,18,Put Bowl
+11767,11793,,30,eating_utensil,3,18,Put Bowl
+11767,11793,,30,eating_utensil,3,18,Put Bowl
+12023,12064,Wash,10,condiment_container,7,9,Cut Cucumber
+12023,12064,Wash,10,condiment_container,7,9,Cut Cucumber
+12023,12064,Wash,10,condiment_container,7,9,Cut Cucumber
+12091,12914,Clean/Wipe,14,tomato,4,11,Close Fridge
+12091,12914,Clean/Wipe,14,tomato,4,11,Close Fridge
+12091,12914,Clean/Wipe,14,tomato,4,11,Close Fridge
+12943,12985,,55,eating_utensil,3,11,Close Fridge
+12943,12985,,55,eating_utensil,3,11,Close Fridge
+12943,12985,,55,eating_utensil,3,11,Close Fridge
+12977,13108,Clean/Wipe,14,tomato,4,11,Close Fridge
+12977,13108,Clean/Wipe,14,tomato,4,11,Close Fridge
+12977,13108,Clean/Wipe,14,tomato,4,11,Close Fridge
+13136,13160,,55,eating_utensil,3,11,Close Fridge
+13136,13160,,55,eating_utensil,3,11,Close Fridge
+13136,13160,,55,eating_utensil,3,11,Close Fridge
+13193,13221,Clean/Wipe,14,tomato,4,11,Close Fridge
+13193,13221,Clean/Wipe,14,tomato,4,11,Close Fridge
+13193,13221,Clean/Wipe,14,tomato,4,11,Close Fridge
+13220,13264,,92,cabinet,6,11,Close Fridge
+13220,13264,,92,cabinet,6,11,Close Fridge
+13220,13264,,92,cabinet,6,11,Close Fridge
+13229,13265,,89,cabinet,6,8,Take Condiment Container
+13229,13265,,89,cabinet,6,8,Take Condiment Container
+13229,13265,,89,cabinet,6,8,Take Condiment Container
+13270,13294,,55,eating_utensil,3,11,Close Fridge
+13270,13294,,55,eating_utensil,3,11,Close Fridge
+13270,13294,,55,eating_utensil,3,11,Close Fridge
+13316,13392,Open,2,fridge,2,2,Open Fridge
+13316,13392,Open,2,fridge,2,2,Open Fridge
+13316,13392,Open,2,fridge,2,2,Open Fridge
+13382,13421,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+13382,13421,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+13382,13421,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+13529,13568,Open,2,fridge,2,2,Open Fridge
+13529,13568,Open,2,fridge,2,2,Open Fridge
+13529,13568,Open,2,fridge,2,2,Open Fridge
+13562,13590,Spread,11,cucumber,8,2,Open Fridge
+13562,13590,Spread,11,cucumber,8,2,Open Fridge
+13562,13590,Spread,11,cucumber,8,2,Open Fridge
+13587,13647,,89,cabinet,6,8,Take Condiment Container
+13587,13647,,89,cabinet,6,8,Take Condiment Container
+13587,13647,,89,cabinet,6,8,Take Condiment Container
+13761,13788,Pour,16,eating_utensil,3,13,Put Condiment Container
+13761,13788,Pour,16,eating_utensil,3,13,Put Condiment Container
+13761,13788,Pour,16,eating_utensil,3,13,Put Condiment Container
+13992,14017,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+13992,14017,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+13992,14017,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+13995,14284,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+13995,14284,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+13995,14284,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+14315,14393,Open,2,fridge,2,2,Open Fridge
+14315,14393,Open,2,fridge,2,2,Open Fridge
+14315,14393,Open,2,fridge,2,2,Open Fridge
+14734,14781,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+14734,14781,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+14734,14781,,38,fridge,2,27,"Spread Condiment,Bread,Eating Utensil"
+14774,14805,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+14774,14805,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+14774,14805,,98,cucumber,8,27,"Spread Condiment,Bread,Eating Utensil"
+14830,14858,,78,cucumber,8,12,Cut Carrot
+14830,14858,,78,cucumber,8,12,Cut Carrot
+14830,14858,,78,cucumber,8,12,Cut Carrot
+15071,15101,Take,3,eating_utensil,3,3,Take Eating Utensil
+15071,15101,Take,3,eating_utensil,3,3,Take Eating Utensil
+15071,15101,Take,3,eating_utensil,3,3,Take Eating Utensil
+15097,15120,,48,eating_utensil,3,4,Cut Tomato
+15097,15120,,48,eating_utensil,3,4,Cut Tomato
+15097,15120,,48,eating_utensil,3,4,Cut Tomato
+15133,15209,Turn off,12,tomato,4,10,Operate Stove
+15133,15209,Turn off,12,tomato,4,10,Operate Stove
+15133,15209,Turn off,12,tomato,4,10,Operate Stove
+15200,15225,,40,cabinet,6,4,Cut Tomato
+15200,15225,,40,cabinet,6,4,Cut Tomato
+15200,15225,,40,cabinet,6,4,Cut Tomato
+15290,15308,Put,6,trash,15,16,Take Plate
+15290,15308,Put,6,trash,15,16,Take Plate
+15290,15308,Put,6,trash,15,16,Take Plate
+15733,15817,,22,cabinet,6,18,Put Bowl
+15733,15817,,22,cabinet,6,18,Put Bowl
+15733,15817,,22,cabinet,6,18,Put Bowl
+15909,15932,Turn off,12,tomato,4,10,Operate Stove
+15909,15932,Turn off,12,tomato,4,10,Operate Stove
+15909,15932,Turn off,12,tomato,4,10,Operate Stove
+15913,16136,Turn off,12,tomato,4,10,Operate Stove
+15913,16136,Turn off,12,tomato,4,10,Operate Stove
+15913,16136,Turn off,12,tomato,4,10,Operate Stove
+16118,16148,Turn off,12,tomato,4,10,Operate Stove
+16118,16148,Turn off,12,tomato,4,10,Operate Stove
+16118,16148,Turn off,12,tomato,4,10,Operate Stove
+16154,16273,Turn off,12,tomato,4,10,Operate Stove
+16154,16273,Turn off,12,tomato,4,10,Operate Stove
+16154,16273,Turn off,12,tomato,4,10,Operate Stove
+16261,16279,Turn off,12,tomato,4,10,Operate Stove
+16261,16279,Turn off,12,tomato,4,10,Operate Stove
+16261,16279,Turn off,12,tomato,4,10,Operate Stove
+16278,16350,Turn off,12,tomato,4,10,Operate Stove
+16278,16350,Turn off,12,tomato,4,10,Operate Stove
+16278,16350,Turn off,12,tomato,4,10,Operate Stove
+16329,16942,Turn off,12,tomato,4,10,Operate Stove
+16329,16942,Turn off,12,tomato,4,10,Operate Stove
+16329,16942,Turn off,12,tomato,4,10,Operate Stove
+16887,16931,Turn off,12,tomato,4,10,Operate Stove
+16887,16931,Turn off,12,tomato,4,10,Operate Stove
+16887,16931,Turn off,12,tomato,4,10,Operate Stove
+16924,16983,Turn off,12,tomato,4,10,Operate Stove
+16924,16983,Turn off,12,tomato,4,10,Operate Stove
+16924,16983,Turn off,12,tomato,4,10,Operate Stove
+17092,17253,Turn off,12,tomato,4,10,Operate Stove
+17092,17253,Turn off,12,tomato,4,10,Operate Stove
+17092,17253,Turn off,12,tomato,4,10,Operate Stove
+17301,17348,Put,6,cabinet,6,3,Take Eating Utensil
+17301,17348,Put,6,cabinet,6,3,Take Eating Utensil
+17301,17348,Put,6,cabinet,6,3,Take Eating Utensil
+17403,18065,Cut,4,tomato,4,4,Cut Tomato
+17403,18065,Cut,4,tomato,4,4,Cut Tomato
+17403,18065,Cut,4,tomato,4,4,Cut Tomato
+18013,19110,Turn off,12,tomato,4,10,Operate Stove
+18013,19110,Turn off,12,tomato,4,10,Operate Stove
+18013,19110,Turn off,12,tomato,4,10,Operate Stove
+18015,18101,,21,tomato,4,17,Take Bowl
+18015,18101,,21,tomato,4,17,Take Bowl
+18015,18101,,21,tomato,4,17,Take Bowl
+19096,19116,,30,eating_utensil,3,18,Put Bowl
+19096,19116,,30,eating_utensil,3,18,Put Bowl
+19096,19116,,30,eating_utensil,3,18,Put Bowl
+19317,19360,,22,cabinet,6,18,Put Bowl
+19317,19360,,22,cabinet,6,18,Put Bowl
+19317,19360,,22,cabinet,6,18,Put Bowl
+19552,19569,Take,3,eating_utensil,3,3,Take Eating Utensil
+19552,19569,Take,3,eating_utensil,3,3,Take Eating Utensil
+19552,19569,Take,3,eating_utensil,3,3,Take Eating Utensil
+19560,19584,Take,3,eating_utensil,3,3,Take Eating Utensil
+19560,19584,Take,3,eating_utensil,3,3,Take Eating Utensil
+19560,19584,Take,3,eating_utensil,3,3,Take Eating Utensil
+19580,19610,Put,6,cabinet,6,3,Take Eating Utensil
+19580,19610,Put,6,cabinet,6,3,Take Eating Utensil
+19580,19610,Put,6,cabinet,6,3,Take Eating Utensil
+20241,20269,Put,6,cabinet,6,3,Take Eating Utensil
+20241,20269,Put,6,cabinet,6,3,Take Eating Utensil
+20241,20269,Put,6,cabinet,6,3,Take Eating Utensil
+20303,20358,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+20303,20358,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+20303,20358,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+20385,20437,Open,2,fridge,2,2,Open Fridge
+20385,20437,Open,2,fridge,2,2,Open Fridge
+20385,20437,Open,2,fridge,2,2,Open Fridge
+20579,20647,Open,2,fridge,2,2,Open Fridge
+20579,20647,Open,2,fridge,2,2,Open Fridge
+20579,20647,Open,2,fridge,2,2,Open Fridge
+20704,20742,Close,8,eating_utensil,3,7,Open Cabinet
+20704,20742,Close,8,eating_utensil,3,7,Open Cabinet
+20704,20742,Close,8,eating_utensil,3,7,Open Cabinet
+20789,20827,,59,eating_utensil,3,36,Take Bread
+20789,20827,,59,eating_utensil,3,36,Take Bread
+20789,20827,,59,eating_utensil,3,36,Take Bread
+20884,20914,Close,8,eating_utensil,3,7,Open Cabinet
+20884,20914,Close,8,eating_utensil,3,7,Open Cabinet
+20884,20914,Close,8,eating_utensil,3,7,Open Cabinet
+21141,21185,,100,stove,9,14,Cut Onion
+21141,21185,,100,stove,9,14,Cut Onion
+21141,21185,,100,stove,9,14,Cut Onion
+21546,21684,Mix,15,mixture,38,3,Take Eating Utensil
+21546,21684,Mix,15,mixture,38,3,Take Eating Utensil
+21546,21684,Mix,15,mixture,38,3,Take Eating Utensil
+23132,23151,,30,eating_utensil,3,18,Put Bowl
+23132,23151,,30,eating_utensil,3,18,Put Bowl
+23132,23151,,30,eating_utensil,3,18,Put Bowl
+23558,23602,,22,cabinet,6,18,Put Bowl
+23558,23602,,22,cabinet,6,18,Put Bowl
+23558,23602,,22,cabinet,6,18,Put Bowl
+24539,24581,,22,cabinet,6,18,Put Bowl
+24539,24581,,22,cabinet,6,18,Put Bowl
+24539,24581,,22,cabinet,6,18,Put Bowl
+24708,24767,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+24708,24767,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+24708,24767,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+25529,25558,,30,eating_utensil,3,18,Put Bowl
+25529,25558,,30,eating_utensil,3,18,Put Bowl
+25529,25558,,30,eating_utensil,3,18,Put Bowl
+25945,26008,,22,cabinet,6,18,Put Bowl
+25945,26008,,22,cabinet,6,18,Put Bowl
+25945,26008,,22,cabinet,6,18,Put Bowl
+26746,26933,,81,trash,15,45,Take Pot
+26746,26933,,81,trash,15,45,Take Pot
+26746,26933,,81,trash,15,45,Take Pot
+27230,27404,,81,trash,15,45,Take Pot
+27230,27404,,81,trash,15,45,Take Pot
+27230,27404,,81,trash,15,45,Take Pot
+29362,29412,,45,eating_utensil,3,26,Wash Eating Utensil
+29362,29412,,45,eating_utensil,3,26,Wash Eating Utensil
+29362,29412,,45,eating_utensil,3,26,Wash Eating Utensil
+29399,29424,,45,eating_utensil,3,26,Wash Eating Utensil
+29399,29424,,45,eating_utensil,3,26,Wash Eating Utensil
+29399,29424,,45,eating_utensil,3,26,Wash Eating Utensil
+29672,29723,,33,cabinet,6,26,Wash Eating Utensil
+29672,29723,,33,cabinet,6,26,Wash Eating Utensil
+29672,29723,,33,cabinet,6,26,Wash Eating Utensil
+29752,29779,,30,eating_utensil,3,18,Put Bowl
+29752,29779,,30,eating_utensil,3,18,Put Bowl
+29752,29779,,30,eating_utensil,3,18,Put Bowl
+31000,31039,,33,cabinet,6,26,Wash Eating Utensil
+31000,31039,,33,cabinet,6,26,Wash Eating Utensil
+31000,31039,,33,cabinet,6,26,Wash Eating Utensil
+31424,31460,,33,cabinet,6,26,Wash Eating Utensil
+31424,31460,,33,cabinet,6,26,Wash Eating Utensil
+31424,31460,,33,cabinet,6,26,Wash Eating Utensil
+31463,31500,,22,cabinet,6,18,Put Bowl
+31463,31500,,22,cabinet,6,18,Put Bowl
+31463,31500,,22,cabinet,6,18,Put Bowl
+31500,31538,Take,3,eating_utensil,3,3,Take Eating Utensil
+31500,31538,Take,3,eating_utensil,3,3,Take Eating Utensil
+31500,31538,Take,3,eating_utensil,3,3,Take Eating Utensil
+31554,31592,Pour,16,eating_utensil,3,13,Put Condiment Container
+31554,31592,Pour,16,eating_utensil,3,13,Put Condiment Container
+31554,31592,Pour,16,eating_utensil,3,13,Put Condiment Container
+32565,32663,Mix,15,mixture,38,3,Take Eating Utensil
+32565,32663,Mix,15,mixture,38,3,Take Eating Utensil
+32565,32663,Mix,15,mixture,38,3,Take Eating Utensil
+32751,32774,Close,8,eating_utensil,3,7,Open Cabinet
+32751,32774,Close,8,eating_utensil,3,7,Open Cabinet
+32751,32774,Close,8,eating_utensil,3,7,Open Cabinet
+32772,32796,Close,8,eating_utensil,3,7,Open Cabinet
+32772,32796,Close,8,eating_utensil,3,7,Open Cabinet
+32772,32796,Close,8,eating_utensil,3,7,Open Cabinet
+32789,32885,,25,fridge,2,7,Open Cabinet
+32789,32885,,25,fridge,2,7,Open Cabinet
+32789,32885,,25,fridge,2,7,Open Cabinet
+32857,33223,,21,condiment_container,7,44,Put Cup
+32857,33223,,21,condiment_container,7,44,Put Cup
+32857,33223,,21,condiment_container,7,44,Put Cup
+33282,33305,Close,8,eating_utensil,3,7,Open Cabinet
+33282,33305,Close,8,eating_utensil,3,7,Open Cabinet
+33282,33305,Close,8,eating_utensil,3,7,Open Cabinet
+33301,33317,Close,8,eating_utensil,3,7,Open Cabinet
+33301,33317,Close,8,eating_utensil,3,7,Open Cabinet
+33301,33317,Close,8,eating_utensil,3,7,Open Cabinet
+33312,33355,,25,fridge,2,7,Open Cabinet
+33312,33355,,25,fridge,2,7,Open Cabinet
+33312,33355,,25,fridge,2,7,Open Cabinet
+33368,33400,,21,condiment_container,7,44,Put Cup
+33368,33400,,21,condiment_container,7,44,Put Cup
+33368,33400,,21,condiment_container,7,44,Put Cup
+33399,33451,,37,cucumber,8,7,Open Cabinet
+33399,33451,,37,cucumber,8,7,Open Cabinet
+33399,33451,,37,cucumber,8,7,Open Cabinet
+33441,33465,,37,cucumber,8,7,Open Cabinet
+33441,33465,,37,cucumber,8,7,Open Cabinet
+33441,33465,,37,cucumber,8,7,Open Cabinet
+34721,34805,,81,trash,15,45,Take Pot
+34721,34805,,81,trash,15,45,Take Pot
+34721,34805,,81,trash,15,45,Take Pot
+34803,34835,Put,6,cabinet,6,3,Take Eating Utensil
+34803,34835,Put,6,cabinet,6,3,Take Eating Utensil
+34803,34835,Put,6,cabinet,6,3,Take Eating Utensil
+34871,34914,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+34871,34914,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+34871,34914,Inspect/Read,1,recipe,1,1,Inspect/Read Recipe
+34925,34955,Close,8,eating_utensil,3,7,Open Cabinet
+34925,34955,Close,8,eating_utensil,3,7,Open Cabinet
+34925,34955,Close,8,eating_utensil,3,7,Open Cabinet
+34967,35006,Open,2,fridge,2,2,Open Fridge
+34967,35006,Open,2,fridge,2,2,Open Fridge
+34967,35006,Open,2,fridge,2,2,Open Fridge
+35000,35040,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+35000,35040,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+35000,35040,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+35034,35064,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+35034,35064,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
+35034,35064,Divide/Pull Apart,13,cabinet,6,7,Open Cabinet
