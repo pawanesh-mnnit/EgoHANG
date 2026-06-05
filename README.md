@@ -5,8 +5,8 @@
 [![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5+-orange)](https://pytorch.org/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 
-> **Pawanesh Kumar Vishwakarma, Ananda S. Chowdhury, Abhimanyu Sahu**  
-> MNNIT Allahabad · Jadavpur University  
+> **Pawanesh Kumar Vishwakarma, Ananda S. Chowdhury, Abhimanyu Sahu**
+> MNNIT Allahabad · Jadavpur University
 > ICPR 2026 — Paper ID 911
 
 ---
@@ -59,6 +59,8 @@ EgoHANG/
 │   ├── pca.py              # PCA utility class
 │   └── pca_2048_to_512.pkl # Pretrained PCA model
 ├── EPIC-Kitchens/
+│   └── Labels/             # Action label CSVs per participant
+├── EGTEA/
 │   └── Labels/             # Action label CSVs per participant
 ├── Train_Val/              # Training/validation split files
 └── Viz_Results/            # Architecture diagrams
@@ -197,6 +199,75 @@ Model OK
 
 ---
 
+## Quick Reproduction (Recommended Starting Point)
+
+To quickly verify the code works **without extracting features from scratch**,
+download the pretrained weights and pre-extracted feature CSVs directly from
+the GitHub Release. No dataset download is required.
+
+### EPIC-Kitchens — P01_04
+
+**Step 1** — Download from GitHub Releases:
+
+| File | Link |
+|------|------|
+| Pretrained weight | [P01_04_fused_model_PCA.pth](https://github.com/pawanesh-mnnit/EgoHANG/releases/download/v1.0.0/P01_04_fused_model_PCA.pth) |
+| Fused features CSV | [P01_04_fused_features_PCA.csv](https://github.com/pawanesh-mnnit/EgoHANG/releases/download/v1.0.0/P01_04_fused_features_PCA.csv) |
+
+Place files in the correct folders:
+```bash
+mkdir checkpoints
+# place P01_04_fused_model_PCA.pth -> checkpoints/
+# place P01_04_fused_features_PCA.csv -> EPIC-Kitchens/Features/
+```
+
+**Step 2** — Label CSV is already in the repo at:
+`EPIC-Kitchens/Labels/P01_04.csv`
+
+**Step 3** — Run evaluation:
+```bash
+python evaluate.py \
+    --dataset epic_kitchens \
+    --fused_csv EPIC-Kitchens/Features/P01_04_fused_features_PCA.csv \
+    --label_csv EPIC-Kitchens/Labels/P01_04.csv \
+    --model_path checkpoints/P01_04_fused_model_PCA.pth
+```
+
+---
+
+### EGTEA Gaze+ — OP01-R01-PastaSalad
+
+**Step 1** — Download from GitHub Releases:
+
+| File | Link |
+|------|------|
+| Pretrained weight | [OP01-R01-PastaSalad_Fused_model.pth](https://github.com/pawanesh-mnnit/EgoHANG/releases/download/v1.0.0/OP01-R01-PastaSalad_Fused_model.pth) |
+| Fused features CSV | [OP01-R01-PastaSalad_fused.csv](https://github.com/pawanesh-mnnit/EgoHANG/releases/download/v1.0.0/OP01-R01-PastaSalad_fused.csv) |
+
+Place files in the correct folders:
+```bash
+# place OP01-R01-PastaSalad_Fused_model.pth -> checkpoints/
+# place OP01-R01-PastaSalad_fused.csv -> EGTEA/Features/
+```
+
+**Step 2** — Label CSV is already in the repo at:
+`EGTEA/Labels/OP01-R01.csv`
+
+**Step 3** — Run evaluation:
+```bash
+python evaluate.py \
+    --dataset egtea \
+    --fused_csv EGTEA/Features/OP01-R01-PastaSalad_fused.csv \
+    --label_csv EGTEA/Labels/OP01-R01.csv \
+    --model_path checkpoints/OP01-R01-PastaSalad_Fused_model.pth
+```
+
+> **Note:** All pretrained weights and fused feature CSVs are available
+> directly from the [GitHub Releases v1.0.0](https://github.com/pawanesh-mnnit/EgoHANG/releases/tag/v1.0.0)
+> page. No dataset download is required to run the Quick Reproduction steps.
+
+---
+
 ## Datasets
 
 ### EPIC-Kitchens
@@ -233,28 +304,30 @@ Expected folder structure:
 
 ## Pretrained Models
 
-Download pretrained model weights from the GitHub Release:
+Download all pretrained model weights and feature CSVs from the GitHub Release:
 
 **[Download from GitHub Releases v1.0.0](https://github.com/pawanesh-mnnit/EgoHANG/releases/tag/v1.0.0)**
 
-| File | Dataset | Participant |
-|------|---------|------------|
-| `P01_04_fused_model_PCA.pth` | EPIC-Kitchens | P01_04 |
-| `P01_04_Fused_model.pth` | EPIC-Kitchens | P01_04 |
-| `P01_05_Fused_model.pth` | EPIC-Kitchens | P01_05 |
-| `OP01-R01-PastaSalad_Fused_model.pth` | EGTEA Gaze+ | OP01-R01 |
-| `OP01-R02-TurkeySandwich_Fused_model.pth` | EGTEA Gaze+ | OP01-R02 |
-| `OP01-R03-BaconAndEggs_Fused_model.pth` | EGTEA Gaze+ | OP01-R03 |
-| `OP01-R04-ContinentalBreakfast_Fused_model.pth` | EGTEA Gaze+ | OP01-R04 |
-| `OP01-R05-Cheeseburger_Fused_model.pth` | EGTEA Gaze+ | OP01-R05 |
-
-Create a `checkpoints/` folder and place downloaded `.pth` files inside it:
-```bash
-mkdir checkpoints
-```
+| File | Type | Dataset | Participant |
+|------|------|---------|------------|
+| `P01_04_fused_model_PCA.pth` | Model | EPIC-Kitchens | P01_04 |
+| `P01_04_Fused_model.pth` | Model | EPIC-Kitchens | P01_04 |
+| `P01_05_Fused_model.pth` | Model | EPIC-Kitchens | P01_05 |
+| `P01_04_fused_features_PCA.csv` | Features | EPIC-Kitchens | P01_04 |
+| `P01_05_fused_features.csv` | Features | EPIC-Kitchens | P01_05 |
+| `OP01-R01-PastaSalad_Fused_model.pth` | Model | EGTEA Gaze+ | OP01-R01 |
+| `OP01-R02-TurkeySandwich_Fused_model.pth` | Model | EGTEA Gaze+ | OP01-R02 |
+| `OP01-R03-BaconAndEggs_Fused_model.pth` | Model | EGTEA Gaze+ | OP01-R03 |
+| `OP01-R04-ContinentalBreakfast_Fused_model.pth` | Model | EGTEA Gaze+ | OP01-R04 |
+| `OP01-R05-Cheeseburger_Fused_model.pth` | Model | EGTEA Gaze+ | OP01-R05 |
+| `OP01-R01-PastaSalad_fused.csv` | Features | EGTEA Gaze+ | OP01-R01 |
+| `OP01-R02-TurkeySandwich_fused.csv` | Features | EGTEA Gaze+ | OP01-R02 |
+| `OP01-R03-BaconAndEggs_fused.csv` | Features | EGTEA Gaze+ | OP01-R03 |
+| `OP01-R04-ContinentalBreakfast_fused.csv` | Features | EGTEA Gaze+ | OP01-R04 |
+| `OP01-R05-Cheeseburger_fused.csv` | Features | EGTEA Gaze+ | OP01-R05 |
 
 > **Note:** Each `.pth` file contains the model trained on a single participant.
-> The class counts are automatically inferred from the checkpoint — no manual
+> Class counts are automatically inferred from the checkpoint — no manual
 > configuration needed.
 
 ---
@@ -296,7 +369,7 @@ python train.py \
 # EGTEA Gaze+
 python train.py \
     --dataset egtea \
-    --fused_csv EGTEA/Features/OP01-R01_fused_features_PCA.csv \
+    --fused_csv EGTEA/Features/OP01-R01-PastaSalad_fused.csv \
     --label_csv EGTEA/Labels/OP01-R01.csv \
     --save_path checkpoints/OP01-R01_model.pth
 ```
@@ -314,7 +387,7 @@ python evaluate.py \
 # EGTEA Gaze+
 python evaluate.py \
     --dataset egtea \
-    --fused_csv EGTEA/Features/OP01-R01_fused_features_PCA.csv \
+    --fused_csv EGTEA/Features/OP01-R01-PastaSalad_fused.csv \
     --label_csv EGTEA/Labels/OP01-R01.csv \
     --model_path checkpoints/OP01-R01-PastaSalad_Fused_model.pth
 ```
@@ -372,7 +445,6 @@ python evaluate.py \
 | CUDA | 12.1 |
 
 ---
-
 
 ## License
 
