@@ -272,5 +272,5 @@ This project is released under the [MIT License](LICENSE).
 ## Contact
 
 - Pawanesh Kumar Vishwakarma — pawanesh.2023rcs04@mnnit.ac.in
-- Abhimanyu Sahu — abhimanyus@mnnit.ac.in
+
 
