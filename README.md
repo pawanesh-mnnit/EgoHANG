@@ -456,4 +456,3 @@ Free for academic and research use. Commercial use requires permission.
 ## Contact
 
 - Pawanesh Kumar Vishwakarma — pawanesh.2023rcs04@mnnit.ac.in
-- Abhimanyu Sahu — abhimanyus@mnnit.ac.in
