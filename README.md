@@ -465,7 +465,3 @@ This project is released under the [CC BY-NC 4.0 License](LICENSE).
 Free for academic and research use. Commercial use requires permission.
 
 ---
-
-## Contact
-
-- Pawanesh Kumar Vishwakarma — pawanesh.2023rcs04@mnnit.ac.in
